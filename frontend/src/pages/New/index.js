@@ -33,8 +33,6 @@ export default function New({ history }) {
     history.push('/dashboard');
   }
 
-  // Comentario teste
-
   return (
     <form onSubmit={handleSubmit}>
       <label
