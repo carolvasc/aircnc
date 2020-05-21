@@ -1,16 +1,10 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 
 const routes = require('./routes');
 
 const app = express();
-
-mongoose.connect('mongodb+srv://carol:!thiS0411@aircnc-qqzky.mongodb.net/aircnc?retryWrites=true&w=majority', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
 
 app.use(cors());
 
